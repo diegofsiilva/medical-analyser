@@ -83,7 +83,7 @@ def draw_scatter_plot():
     fig = sns.relplot(
         x="weight",
         y="height",
-        hue="active",
+        hue="active", 
         data=df
     )
     fig.savefig('scatterplot.png')
